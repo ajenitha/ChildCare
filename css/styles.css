@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Inconsolata';
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix{
+    clear:both;
+}
+.wrapper
+{
+    width:100%;
+	position:relative;
+}
+header
+{
+    position:relative;
+	height:60px;
+    
+}
+.logo
+{
+    float:left;
+    padding:15px;
+    font-size: 36px;
+}
+.nav
+{
+    list-style: none;
+    float:right;
+    margin:8px;
+	position;absolute;
+}
+.nav li
+{
+    display: inline-block;
+    padding:15px;
+	color: #	;
+	font-size:22px;
+	vertical-align:top;
+}
+.header_banner
+{
+    background: url(../images/banner.jpg) no-repeat center;
+	 width:100%;
+    min-height:920px;
+    background-size:cover;
+    position:absolute;
+	z-index:-1;
+}
+.caption {
+    position: absolute;
+    font-size: 69px;
+    width: 50%;
+    top: 400px;
+    left: 42px;
+    color: #fff;
+}
+.content
+{
+    width:960px;
+    margin-top:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.sub_heading
+{
+    text-align: center;
+    color:#668591;
+    font-size: 44px;
+    margin:30px;
+    
+}
+.para
+{
+    text-align: justify;
+    color:#8BA4AD;
+    font-size:20px;
+    
+}
+.nav li:hover
+{
+	color:#0E4C4E;
+	cursor:pointer;
+}
+.submenu_offering li, .submenu_campus li
+{
+	list-style:none;
+	display:block;
+	background-color:#fff;
+	border-radius:5px;
+	font-size:18px;
+}
+.submenu_offering, .submenu_campus
+{
+	display:none;
+}
+.footer
+{
+	background-color:#53D3F3;
+	position:absolute;
+	margin-top:30px;
+	width:100%;
+	color:#fff;
+	font-size:44px;
+	text-align:center;
+}
+.drink, .food
+{
+	width:100px;
+	height:100px;
+	display:inline-block;
+	margin:100px;
+
+	
+}
+.drink
+{
+	background:url(../images/drink1.png);
+	background-size:contain;
+}
+.food
+{
+	background:url(../images/food1.png);
+	background-size:contain;
+}
+.drink:hover
+{
+	background:url(../images/drink2.png);
+	background-size:contain;
+}
+.food:hover
+{
+	background:url(../images/food2.png);
+	background-size:contain;
+}
+.pop
+{
+	display:none;
+}
